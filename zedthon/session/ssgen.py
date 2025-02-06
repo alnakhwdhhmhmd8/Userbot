@@ -66,7 +66,7 @@ def telethon_session():
             try:
                 Tepthon.send_message(
                     "me",
-                    f"**- هـذا هو كـود سيشـن تيليثـون الخـاص بـك ☑️**:\n\n`{Tepthon.session.save()}`\n\n**- لا تشـارك هـذا الكـود مع اي احـد ⚠️؟!**\n**- فقـط قم بنسخـه ولصقـه في مربعـات التنصيب 🛃**\n\n**- سـورس تيبـثون : @Tepthon**",
+                    f"**- هـذا هو كـود سيشـن تيليثـون الخـاص بـك ☑️**:\n\n`{Tepthon.session.save()}`\n\n**- لا تشـارك هـذا الكـود مع اي احـد ⚠️؟!**\n**- فقـط قم بنسخـه ولصقـه في مربعـات التنصيب 🛃**\n\n**- سـورس مدمن: @CU_FG**",
                 )
                 print(
                     "Your SESSION has been generated. Check your Telegram saved messages!"
